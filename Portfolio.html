@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AQ Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        color: white;
+        background-color: rgb(20, 20, 20);
+      }
+      p {
+        width: 800px;
+        text-align: justify;
+        font-size: 18px;
+      }
+      .pg1 {
+        margin-bottom: 450px;
+      }
+
+      .name {
+        margin-top: 350px;
+        margin-left: 38.5%;
+        width: max-content;
+        font-size: 55px;
+        transition: text-decoration 0.5s, color 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .name:hover,
+      .role:hover {
+        text-decoration: underline;
+        color: rgb(27, 149, 0);
+      }
+      .role {
+        font-weight: bold;
+        width: max-content;
+        margin-left: 44%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      .resume-button {
+        font-size: 18px;
+        display: block;
+        text-decoration: none;
+        background-color: rgb(20, 20, 20);
+        color: rgb(27, 149, 0);
+        border-color: rgb(20, 20, 20);
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 12px;
+        transition: background-color 0.5s, color 0.5s, box-shadow 0.5s,
+          border-color 0.2s;
+        padding-left: 15px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 15px;
+        margin-left: 48%;
+
+        margin-bottom: 450px;
+      }
+      .resume-button:hover {
+        background-color: rgb(27, 149, 0);
+        border-color: rgb(27, 149, 0);
+        color: white;
+        box-shadow: 0px 15px 30px rgba(27, 149, 0, 0.6);
+      }
+      .resume-button:active {
+        opacity: 0.7;
+        transition: opacity 0.2s;
+      }
+      .pg2container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 500px;
+        margin-top: 400px;
+        padding-top: 200px;
+      }
+
+      .imagee {
+        display: inline-block;
+      }
+      .pg2 {
+        display: inline-block;
+      }
+      .about-me {
+        font-size: 30px;
+        text-decoration: underline;
+        margin-bottom: 10px;
+      }
+      img {
+        display: inline-block;
+        width: 360px;
+        border-radius: 180px;
+        margin-left: 65px;
+        margin-right: 80px;
+        box-shadow: 0 5px 15px rgba(27, 149, 0, 0.9);
+      }
+      .imagee,
+      .pg2 {
+        vertical-align: auto;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        vertical-align: 0;
+        padding: 0;
+        height: 100px;
+        width: 100%;
+        background-color: #214d27;
+      }
+
+      .navbar {
+        top: 0;
+        position: fixed;
+        margin-left: 33%;
+      }
+      .navbar li {
+        list-style: none;
+        display: inline-block;
+
+        line-height: 100px;
+      }
+      .navbar li a {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        color: aliceblue;
+        padding: 0 45px;
+        transition: color 0.5s;
+      }
+      .navbar li a:hover {
+        color: rgb(27, 149, 0);
+      }
+      .pg3container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 500px;
+      }
+      .projects {
+        text-decoration: underline;
+        font-size: 40px;
+        margin-left: 150px;
+      }
+      .prj {
+        margin-left: 150px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-decoration: wavy;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="pg1">
+      <h1 class="name">Abdirahman Qorane</h1>
+      <h2 class="role">Aspiring Cloud Engineer</h2>
+      <a
+        href="https://drive.google.com/file/d/1xOdmOvVERWVXeRZgH117GlpH7gYdfzp-/view?usp=sharing"
+        target="_blank"
+      >
+        <button class="resume-button">View Resume</button>
+      </a>
+    </div>
+    <div class="pg2container">
+      <div class="imagee">
+        <img src="images/AbdirahmanPhoto.jpeg" alt="A Photo of Abdirahman" />
+      </div>
+      <div class="pg2">
+        <h3 id="about-me" class="about-me">About me</h3>
+        <p class="para1">
+          I am a recent Mechanical Engineering graduate with a strong foundation
+          in engineering principles and problem-solving skills. Eager to
+          transition into the dynamic world of technology, leveraging my
+          analytical mindset and technical aptitude to excel in this rapidly
+          evolving field.
+        </p>
+        <p class="para2">
+          Actively engaged in self-directed learning, proficient in Python for
+          programming and automation tasks. Skilled in web development with a
+          focus on HTML and CSS, demonstrating a keen interest in creating
+          user-friendly and visually appealing interfaces.Committed to
+          continuous self-improvement and staying up-to-date with the latest
+          trends and technologies in the tech industry.
+        </p>
+        <p class="para3">
+          Open to networking opportunities and excited to explore roles that
+          allow me to apply my engineering background while expanding my
+          proficiency in tech-related domains.
+        </p>
+      </div>
+    </div>
+    <div class="pg3container">
+      <h3 id="projects" class="projects">Projects</h3>
+
+      <ul>
+        <li>
+          <a
+            class="prj"
+            href="https://replit.com/@AbdirahmanQoran/boilerplate-arithmetic-formatter-2#arithmetic_arranger.py"
+            >Arithmetic Formatter - Comlpeted</a
+          >
+        </li>
+
+        <li>
+          <a
+            class="prj"
+            href="https://replit.com/@AbdirahmanQoran/AttentiveShadyAstronomy"
+            >Password function - Completed</a
+          >
+        </li>
+        <li>
+          <a
+            class="prj"
+            href="https://replit.com/@AbdirahmanQoran/boilerplate-time-calculator#time_calculator.py"
+            >Time calculator - In progress</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
